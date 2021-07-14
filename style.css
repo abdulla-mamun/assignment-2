@@ -4,3 +4,150 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Top section  */
+.top-section{
+    height: 677px;
+    background-color: #2D25A0; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-title-bar{
+    width: 485px;
+    height: 300px;
+}
+.top-title-bar h2{
+    font-weight: 700px;
+    color: #ffffff;
+    font-size: 64px;
+    margin-top: 0;
+    line-height: 80px;
+}
+.top-image-bar{
+    width: 556.01px;
+    height: 438px;
+}
+.top-image-bar img{
+    width: 100%;
+}
+.anchor{
+    background-color: #E02C6D;
+    color: #ffffff;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor a{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #ffffff;
+}
+/* Top section finish */
+/* players section start  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    padding: 70px 15%;
+    grid-row-gap: 27px;
+    
+}
+.player{
+    width: 330px;
+    height: 510px;
+    box-shadow: 4px -5px 20px 2px rgb(156 130 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+.player-photo{
+    width: 300px;
+    height: 256px;
+}
+.player-photo img{
+    width: 100%;
+}
+.player-detail{
+    width: 300px;
+    height: 154px;
+}
+.player-title{
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info{
+font-size: 16px;
+line-height: 26px;
+color: #6C6C6C;
+}
+
+/* hightlight section start  */
+.highlight{
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.highlight-detail{
+    width: 469px;
+    height: 309px;
+    margin-right: 66px;
+}
+.highlight-title{
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.highlight-info{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+.highlight-photo{
+    width: 567px;
+    height: 427px;
+}
+.highlight-photo img{
+    width: 100%;
+}
+/* footer section start  */
+.football{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    width: 483.87px;
+    height: 110px;
+}
+.logo img{
+    width: 100%;
+}
+.icon{
+    width: 170px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+}
+.icon .same{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(117, 110, 110);
+    
+}
+
+/* Mobile Device  */
+ @media only screen and (max-width:688px) {
+    .top-section{
+        flex-direction: column;
+    }
+    .top-title-bar, .top-image-bar{
+        width:100%;
+    }
+ }
